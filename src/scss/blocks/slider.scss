@@ -1,0 +1,82 @@
+.slider {
+  height: 1020px;
+  width: 100%;
+  @include flexColCent();
+  justify-content: center;
+  position: relative;
+  background-image: url(../images/Slider/slider-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+  &__pips {
+    position: absolute;
+    bottom: 35px;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-2px);
+  }
+  &__pip {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #9c9b9a;
+    margin: 5px;
+    cursor: pointer;
+
+    &_actual {
+      border: 2px solid #cfbdaa;
+      height: 15px;
+      width: 15px;
+      background: none;
+    }
+  }
+  &__arrow{
+    position: absolute;
+    top: 470px;
+    cursor: pointer;
+
+    &_left{
+      left: 150px;
+      transform: rotate(180deg);
+    }
+    &_right{
+      right: 150px;
+    }
+  }
+}
+
+.sliderSlogan {
+  @include flexColCent();
+
+  &__top {
+    font-size: 38px;
+  }
+  &__middle {
+    margin: 10px 0 15px;
+    font-size: 56px;
+    font-weight: 900;
+  }
+  &__bottom {
+    text-align: center;
+    width: 570px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    font-weight: 300;
+  }
+  &__button {
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 5px;
+    background-color: #998675;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }  
+}

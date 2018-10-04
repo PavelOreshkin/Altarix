@@ -1,0 +1,40 @@
+.videoPresentation {
+  @include flexColCent();
+  justify-content: center;
+  height: 705px;
+  width: 100%;
+  background-image: url(../images/Content/VideoPresentation/VideoPresentation-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+
+  &__iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+    background: rgba(73, 73, 73, 0.5);
+    cursor: pointer;
+  }
+  &__title {
+    display: inline-block;
+    margin: 40px 0 18px;
+    font-size: 31px;
+  }
+  &__content {
+    display: inline-block;
+    text-align: center;
+    width: 570px;
+    margin-bottom: 35px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+  }
+  &__time {    
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;
+  }
+}

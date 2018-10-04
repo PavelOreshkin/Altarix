@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  @include flexColCent();
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.allContentWrapper {
+  @include flexColCent();
+  position: relative;
+  width: 100%;
+}
+
+.grind {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  z-index: 10;
+
+  // чтобы включить сетку закоментить display: none
+  display: none;
+  //
+
+  &__line {
+    width: 70px;
+    margin: 0 15px;
+    background: rgba(0, 0, 255, .3);
+    &_first {
+      margin: 0 15px 0 0;
+    }
+    &_last {
+      margin: 0 0 0 15px;
+    }
+    &_margin {
+      width: 30px;
+      background-color: rgba(255, 0, 0, .3);
+    }
+  }
+}

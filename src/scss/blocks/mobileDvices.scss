@@ -1,0 +1,51 @@
+.mobileDvices {
+  @include flexColCent();
+  justify-content: center;
+  position: relative;
+  height: 700px;
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-327px);
+  }
+  &__rightSide {
+    transform: translateX(250px);
+  }
+}
+
+.mobileDvicesRightSide {
+  width: 670px;
+  &__title {
+    display: inline-block;
+    margin: 40px 0 30px;
+    font-size: 31px;
+    font-weight: 900;
+    color: #555555;
+  }
+  &__content {
+    display: inline-block;
+    width: 660px;
+    margin-bottom: 29px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    color: #8c8c8c;
+  }
+  &__ul {
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #8c8c8c;
+
+  }
+  &__arrow {
+    transform: translateY(5px);
+  }  
+  &__list {
+    margin-bottom: 10px;
+  }
+  &__arrow {
+    margin-right: 25px;
+  }
+}

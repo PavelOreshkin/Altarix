@@ -1,0 +1,157 @@
+.recentPosts {
+  @include flexColCent();
+  height: 755px;
+  width: 100%;
+  
+  &__title {
+    display: inline-block;
+    margin: 80px 0 16px;
+    font-size: 31px;
+    font-weight: 900;
+  }
+  &__underTitle {
+    display: inline-block;
+    text-align: center;
+    width: 770px;
+    margin-bottom: 32px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    color: #8c8c8c;
+  }
+  &__blockWrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.recentPostsBlock {
+  position: relative;
+  height: 395px;
+  width: 370px;
+  margin: 0 15px;
+  background: white;
+  cursor: pointer;
+
+  &__imgWrapper {
+    height: 220px;
+    background: black;
+  }
+  &__img {
+    transition: all .3s;
+  }
+  &__contentWrapper {
+    height: 175px;
+    padding: 15px 0 0 0;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #f8f8f8;
+    background: white;
+    transition: all .3s;
+  }
+  &__title {
+    margin: 25px 0 17px 28px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #555555;
+    transition: all .3s;
+  }
+
+  &__content {
+    margin: 0 0 25px 28px;
+    line-height: 20px;
+    font-size: 14.5px;
+    color: #8c8c8c;
+    transition: all .3s;
+  }
+
+  &__ReadMore {
+    display: inline-block;
+    margin-left: 28px;
+    font-size: 14.5px;
+    text-decoration: none;
+    color: #c7b299;
+  }
+  &__triangle {
+    display: inline-block;    
+    transform: translateY(1px);
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #c7b299;
+    margin-left: 7px;
+  }
+}
+.recentPostsBlock:hover .recentPostsBlock {
+  &__contentWrapper {
+    background: #362f2d;
+    border-left: 1px solid #362f2d;
+    border-right: 1px solid #362f2d;
+    border-bottom: 1px solid #362f2d;
+  }
+  &__title {
+    color: #c7b299;
+  }
+  &__content {
+    color: white;
+  }
+  &__img {
+    opacity: 0.5; 
+  }
+}
+
+.recentPostsBlockDate {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  @include flexColCent();
+  height: 60px;
+  width: 50px;
+  color: white;
+
+  &__day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #363636;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    transition: background .3s;
+  }
+
+  &__month {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #252525;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    transition: background .3s;
+  }
+}
+
+.recentPostsBlock:hover .recentPostsBlockDate {
+  &__day {
+    background: #c7b299;    
+  }
+  &__month {
+    background: #a48d72;
+  }
+}
+
+.recentPostsArrow {
+  margin-top: 38px;
+  cursor: pointer;
+  &__left {
+    margin-right: 5px;
+  }
+}

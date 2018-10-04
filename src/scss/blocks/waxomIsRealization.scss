@@ -1,0 +1,47 @@
+.waxomIsRealization {
+  @include flexColCent();
+  height: 700px;
+  width: 100%;
+  background: #fbfaf8;
+
+  &__title {
+    display: inline-block;
+    margin: 80px 0 18px;
+    font-size: 31px;
+    font-weight: 900;
+  }
+  &__content {
+    display: inline-block;
+    text-align: center;
+    width: 770px;
+    margin-bottom: 35px;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    color: #8c8c8c;
+  }
+}
+
+.waxomIsRealizationBrowserblock {
+  @include flexColCent();
+  position: relative;
+  width: 1230px;
+  height: 100%;
+  
+  &__browserImg {
+    position: absolute;
+    
+    &_left {
+      left: 0;
+      bottom: 0;
+    }
+    &_center {
+      bottom: -5px;
+      z-index: 1;      
+    }
+    &_right {
+      right: 0;
+      bottom: 0;
+    }
+  }
+}

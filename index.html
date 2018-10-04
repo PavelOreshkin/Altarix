@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Altarix Test</title>
+</head>
+
+<body>
+  <div class="allContentWrapper">
+
+    <!-- Чтобы включить нужно зайти в src\scss\bases\bases.scss закомитить строчку 27 -->
+    <div class="grind">
+      <div class="grind__line_margin"></div>
+      <div class="grind__line grind__line_first"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line"></div>
+      <div class="grind__line grind__line_last"></div>
+      <div class="grind__line_margin"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header__logo headerLogo">
+        <img src="images\Header\logos.png" alt="logo" class="headerLogo__img">
+        <p class="headerLogo__content">Waxom</p>
+      </div>
+      <nav class="header__nav headerNav">
+        <ul class="headerNav_ul">
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Home</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link headerNav__link_active">About Us</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Portfolio</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Features</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Blog</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Pricing</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Shortcodes</a></li>
+          <li class="headerNav__list"><a href="#" class="headerNav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__icon headerIcon">
+        <img src="images\Header\icon-cart.png" alt="cart" class="headerIcon__icon">
+        <img src="images\Header\icon-search.png" alt="search" class="headerIcon__icon">
+      </div>
+    </header>
+
+    <!-- SLIDER -->
+    <section class="slider">
+      <article class="slider__slogan sliderSlogan">
+        <h2 class="sliderSlogan__top">Unique and Modern Design</h2>
+        <h1 class="sliderSlogan__middle">Portfolio PSD Template</h1>
+        <p class="sliderSlogan__bottom">Nam liber tempor cum soluta nobis eleifend option congue nihil imper&shy;diet
+          doming id quod mazim placerat facer possim assum.</p>
+        <button class="sliderSlogan__button">get started</button>
+      </article>
+      <div class="slider__pips">
+        <div class="slider__pip"></div>
+        <div class="slider__pip slider__pip_actual"></div>
+        <div class="slider__pip"></div>
+        <div class="slider__pip"></div>
+        <div class="slider__pip"></div>
+      </div>
+      <img class="slider__arrow slider__arrow_left" src="images\Slider\arrow.png" alt="previous slide">
+      <img class="slider__arrow slider__arrow_right" src="images\Slider\arrow.png" alt="next slide">
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <article class="services__block servicesBlock">
+        <figure class="servicesBlock__figure">
+          <img class="servicesBlock__icon" src="images\Content\Services\icon_design.png" alt="design">
+          <figcaption class="servicesBlock__figcuption">Web & App Design</figcaption>
+        </figure>
+        <p class="servicesBlock__content">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+          doming
+          id quod mazim.</p>
+        <div class="servicesBlock__line"></div>
+      </article>
+      <article class="services__block servicesBlock">
+        <figure class="servicesBlock__figure">
+          <img class="servicesBlock__icon servicesBlock__icon" src="images\Content\Services\icon_developmentGray.png"
+            alt="development">
+          <figcaption class="servicesBlock__figcuption">Development</figcaption>
+        </figure>
+        <p class="servicesBlock__content">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod
+          tincidunt ut laoreet.</p>
+        <div class="servicesBlock__line servicesBlock__line"></div>
+      </article>
+      <article class="services__block servicesBlock">
+        <figure class="servicesBlock__figure">
+          <img class="servicesBlock__icon" src="images\Content\Services\icon_customization.png" alt="customization">
+          <figcaption class="servicesBlock__figcuption">Customization</figcaption>
+        </figure>
+        <p class="servicesBlock__content">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+          doming
+          id quod mazim.</p>
+        <div class="servicesBlock__line"></div>
+      </article>
+      <article class="services__block servicesBlock">
+        <figure class="servicesBlock__figure">
+          <img class="servicesBlock__icon" src="images\Content\Services\icon_marketing.png" alt="marketing">
+          <figcaption class="servicesBlock__figcuption">Marketing</figcaption>
+        </figure>
+        <p class="servicesBlock__content">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+          doming
+          id quod mazim.</p>
+        <div class="servicesBlock__line"></div>
+      </article>
+    </section>
+
+    <!-- waxomIsRealization -->
+    <section class="waxomIsRealization">
+      <h3 class="waxomIsRealization__title">Waxom is Realization of your Ideas.</h3>
+      <p class="waxomIsRealization__content">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      <div class="waxomIsRealization__browserblock waxomIsRealizationBrowserblock">
+        <img src="images\Content\WaxomIsRealization\browser-left.png" alt="browser img" class="waxomIsRealizationBrowserblock__browserImg waxomIsRealizationBrowserblock__browserImg_left">
+        <img src="images\Content\WaxomIsRealization\browser-center.png" alt="browser img" class="waxomIsRealizationBrowserblock__browserImg waxomIsRealizationBrowserblock__browserImg_center">
+        <img src="images\Content\WaxomIsRealization\browser-right.png" alt="browser img" class="waxomIsRealizationBrowserblock__browserImg waxomIsRealizationBrowserblock__browserImg_right">
+      </div>
+    </section>
+
+    <!-- TextBoxes -->
+    <section class="textBoxes">
+      <div class="textBoxes__contentWrapper">
+        <div class="textBoxes__leftSide">
+          <h3 class="textBoxes__title"><span class="textBoxes__select">Waxom</span> Multipurpose WordPress Theme</h3>
+          <p class="textBoxes__content">Don't Forget to Rate the Template. Thanks so much!</p>
+        </div>
+        <button class="textBoxes__button">purchse now</button>
+      </div>
+    </section>
+
+    <!-- LatestProject -->
+    <section class="latestProject">
+      <h3 class="latestProject__title">Our Latest Projects.</h3>
+      <p class="latestProject__underTitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius.
+        Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      <ul class="latestProject__nav latestProjectNav">
+        <li class="latestProjectNav__list"><a href="#" class="latestProjectNav__link latestProjectNav__link_active">All</a></li>
+        <li class="latestProjectNav__list"><a href="#" class="latestProjectNav__link">Web Design</a></li>
+        <li class="latestProjectNav__list"><a href="#" class="latestProjectNav__link">Mobile App</a></li>
+        <li class="latestProjectNav__list"><a href="#" class="latestProjectNav__link">Illustration</a></li>
+        <li class="latestProjectNav__list"><a href="#" class="latestProjectNav__link">Photography</a></li>
+      </ul>
+      <div class="latestProject__contentWrapper">
+        <article class="latestProject__contentBlock latestProjectContentBlock">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg1.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Claritas Etiam Processus</h3>
+          <p class="latestProjectContentBlock__content">Photography, Nature</p>
+        </article>
+        <article class="latestProject__contentBlock latestProjectContentBlock latestProjectContentBlock_active">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg2.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Quam Nutamus Farum</h3>
+          <p class="latestProjectContentBlock__content">Graphic Design, Mock-Up</p>
+        </article>
+        <article class="latestProject__contentBlock latestProjectContentBlock">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg3.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Usus Legentis Videntur</h3>
+          <p class="latestProjectContentBlock__content">Photography, Holiday</p>
+        </article>
+        <article class="latestProject__contentBlock latestProjectContentBlock">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg4.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Claritas Etiam Processus</h3>
+          <p class="latestProjectContentBlock__content">Photography, Holiday</p>
+        </article>
+        <article class="latestProject__contentBlock latestProjectContentBlock">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg5.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Quam Nutamus Farum</h3>
+          <p class="latestProjectContentBlock__content">Graphic Design, Mock-Up</p>
+        </article>
+        <article class="latestProject__contentBlock latestProjectContentBlock">
+          <div class="latestProjectContentBlock__imgWrapper">
+            <img src="images\Content\latestProject\latestProject_bg6.png" alt="project image" class="latestProjectContentBlock__img">
+            <img src="images\Content\latestProject\latestProject_link.png" alt="icon link" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_link">
+            <img src="images\Content\latestProject\latestProject_zoom.png" alt="icon zoom" class="latestProjectContentBlock__icon latestProjectContentBlock__icon_zoom">
+          </div>
+          <div class="latestProjectContentBlock__triangle"></div>
+          <h3 class="latestProjectContentBlock__title">Usus Legentis Videntur</h3>
+          <p class="latestProjectContentBlock__content">Photography, Holiday</p>
+        </article>
+      </div>
+      <button class="latestProject__button">load more</button>
+    </section>
+
+    <!-- VideoPresentation -->
+    <section class="videoPresentation">
+      <div class="videoPresentation__iconWrapper">
+        <img src="images\Content\VideoPresentation\icon-play.png" alt="play icon" class="videoPresentation__iconPlay">
+      </div>
+      <h3 class="videoPresentation__title">Waxom Video Presentation</h3>
+      <p class="videoPresentation__content">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius, qui sequitur mutationem consuetudium.</p>
+      <time class="videoPresentation__time">03:26</time>
+    </section>
+
+    <!-- MobileDvices -->
+    <section class="mobileDvices">
+      <img src="images\Content\MobileDvices\iPhoneInHand.png" alt="iPhone" class="mobileDvices__img">
+      <article class="mobileDvices__rightSide mobileDvicesRightSide">
+        <h3 class="mobileDvicesRightSide__title">Excellent for Mobile Devices.</h3>
+        <p class="mobileDvicesRightSide__content">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+          suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me
+          lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+          in
+          futurum.</p>
+        <ul class="mobileDvicesRightSide__ul">
+          <li class="mobileDvicesRightSide__list">
+            <img src="images\Content\MobileDvices\icon-arrow.png" alt="arrow icon" class="mobileDvicesRightSide__arrow">
+            Nam liber tempor cum soluta nobis eleifend option;</li>
+          <li class="mobileDvicesRightSide__list">
+            <img src="images\Content\MobileDvices\icon-arrow.png" alt="arrow icon" class="mobileDvicesRightSide__arrow">
+            Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+          <li class="mobileDvicesRightSide__list">
+            <img src="images\Content\MobileDvices\icon-arrow.png" alt="arrow icon" class="mobileDvicesRightSide__arrow">
+            Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+          <li class="mobileDvicesRightSide__list">
+            <img src="images\Content\MobileDvices\icon-arrow.png" alt="arrow icon" class="mobileDvicesRightSide__arrow">
+            Investigationes demonstraverunt lectores</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Counters -->
+    <section class="counters">
+      <article class="counters__block countersBlock">
+        <img src="images\Content\Counters\countersIconClients.png" alt="client icon" class="countersBlock__icon">
+        <p class="countersBlock__amount">3587</p>
+        <h3 class="countersBlock__title">Satisfied client</h3>
+        <div class="countersBlock__line"></div>
+      </article>
+      <article class="counters__block countersBlock">
+        <img src="images\Content\Counters\countersIconCoffee.png" alt="coffee icon" class="countersBlock__icon">
+        <p class="countersBlock__amount">207</p>
+        <h3 class="countersBlock__title">Cups of cofee</h3>
+        <div class="countersBlock__line"></div>
+      </article>
+      <article class="counters__block countersBlock">
+        <img src="images\Content\Counters\countersIconBlogPost.png" alt="message icon" class="countersBlock__icon">
+        <p class="countersBlock__amount">2500</p>
+        <h3 class="countersBlock__title">Blog posts</h3>
+        <div class="countersBlock__line"></div>
+      </article>
+      <article class="counters__block countersBlock">
+        <img src="images\Content\Counters\countersIconLikes.png" alt="like icon" class="countersBlock__icon">
+        <p class="countersBlock__amount">873</p>
+        <h3 class="countersBlock__title">Likes</h3>
+        <div class="countersBlock__line"></div>
+      </article>
+      <article class="counters__block countersBlock">
+        <img src="images\Content\Counters\countersIconWeLaunched.png" alt="launched icon" class="countersBlock__icon">
+        <p class="countersBlock__amount">900</p>
+        <h3 class="countersBlock__title">We launched</h3>
+        <div class="countersBlock__line"></div>
+      </article>
+    </section>
+
+    <!-- RecentPosts -->
+    <section class="recentPosts">
+      <h3 class="recentPosts__title">Recent Posts.</h3>
+      <p class="recentPosts__underTitle">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+        saepius.
+        Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+      <div class="recentPosts__blockWrapper">
+        <article class="recentPosts__block recentPostsBlock">
+          <div class="recentPostsBlock__imgWrapper">
+            <img src="images\Content\RecentPosts\RecentPost1.png" alt="article image" class="recentPostsBlock__img">
+          </div>
+          <div class="recentPostsBlock__date recentPostsBlockDate">
+            <p class="recentPostsBlockDate__day">30</p>
+            <p class="recentPostsBlockDate__month">Sep.</p>
+          </div>
+          <div class="recentPostsBlock__contentWrapper">
+            <h3 class="recentPostsBlock__title">Lorem ipsum dolor sit amet</h3>
+            <p class="recentPostsBlock__content">Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium.</p>
+            <a href="#" class="recentPostsBlock__ReadMore"> Read More
+              <div class="recentPostsBlock__triangle"></div>
+            </a>
+          </div>
+        </article>
+        <article class="recentPosts__block recentPostsBlock">
+          <div class="recentPostsBlock__imgWrapper">
+            <img src="images\Content\RecentPosts\RecentPost2.png" alt="article image" class="recentPostsBlock__img">
+          </div>
+          <div class="recentPostsBlock__date recentPostsBlockDate">
+            <p class="recentPostsBlockDate__day">30</p>
+            <p class="recentPostsBlockDate__month">Sep.</p>
+          </div>
+          <div class="recentPostsBlock__contentWrapper">
+            <h3 class="recentPostsBlock__title">Lorem ipsum dolor sit amet</h3>
+            <p class="recentPostsBlock__content">Claritas est etiam processus
+              dynamicus,
+              qui sequitur mutationem
+              consuetudium.</p>
+            <a href="#" class="recentPostsBlock__ReadMore"> Read More
+              <div class="recentPostsBlock__triangle"></div>
+            </a>
+          </div>
+        </article>
+        <article class="recentPosts__block recentPostsBlock">
+          <div class="recentPostsBlock__imgWrapper"><img src="images\Content\RecentPosts\RecentPost3.png" alt="article image"
+              class="recentPostsBlock__img"></div>
+          <div class="recentPostsBlock__date recentPostsBlockDate">
+            <p class="recentPostsBlockDate__day">30</p>
+            <p class="recentPostsBlockDate__month">Sep.</p>
+          </div>
+          <div class="recentPostsBlock__contentWrapper">
+            <h3 class="recentPostsBlock__title">Lorem ipsum dolor sit amet</h3>
+            <p class="recentPostsBlock__content">Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium.</p>
+            <a href="#" class="recentPostsBlock__ReadMore"> Read More
+              <div class="recentPostsBlock__triangle"></div>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="recentPosts__arrow recentPostsArrow">
+        <img src="images\Content\RecentPosts\left.png" alt="arrow left" class="recentPostsArrow__left">
+        <img src="images\Content\RecentPosts\right.png" alt="arrow right" class="recentPostsArrow__right">
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners">
+      <div class="partners__iconWrapper">
+        <img src="images\Content\Partners\PartnersLogo-01.png" alt="Antonio The Barber Haircuts" class="partners__partnerIcon">
+      </div>
+      <div class="partners__iconWrapper">
+        <img src="images\Content\Partners\PartnersLogo-02.png" alt="Delicious" class="partners__partnerIcon">
+      </div>
+      <div class="partners__iconWrapper">
+        <img src="images\Content\Partners\PartnersLogo-03.png" alt="We're Designers" class="partners__partnerIcon">
+      </div>
+      <div class="partners__iconWrapper">
+        <img src="images\Content\Partners\PartnersLogo-04.png" alt="Cafe Royal Roasters" class="partners__partnerIcon">
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Поправить шрифты на монсерат -->
+    <section class="footer">
+      <article class="footer__block footerLoginBlock">
+        <div class="footerLoginBlock__logo footerLoginBlockLogo">
+          <img src="images\Header\logos.png" alt="logo" class="footerLoginBlockLogo__img">
+          <p class="footerLoginBlockLogo__content">Waxom</p>
+        </div>
+        <p class="footerLoginBlock__content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+          nibh
+          euismod
+          tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+          suscipit lobortis claritatem.</p>
+        <a href="#" class="footerLoginBlock__ReadMore"> Read More
+          <div class="footerLoginBlock__triangle"></div>
+        </a>
+      </article>
+
+      <article class="footer__block footerRecentPostsBlock">
+        <h3 class="footerRecentPostsBlock__title">Recent Posts</h3>
+        <article class="footerRecentPostsBlock__news footerRecentPostsBlockNews">
+          <p class="footerRecentPostsBlockNews__date">September 08.2015</p>
+          <p class="footerRecentPostsBlockNews__content">Lorem ipsum dolor sit amet, consec&shy;tetuer adipiscing elit</p>
+          <div class="footerRecentPostsBlockNews__line"></div>
+        </article>
+        <article class="footerRecentPostsBlock__news footerRecentPostsBlockNews">
+          <p class="footerRecentPostsBlockNews__date footerRecentPostsBlockNews__date_active">September 08.2015</p>
+          <p class="footerRecentPostsBlockNews__content footerRecentPostsBlockNews__content_active">Diam nonummy nibh
+            euismod tincid&shy;unt ut laoreet dolore magna</p>
+          <div class="footerRecentPostsBlockNews__line"></div>
+        </article>
+        <article class="footerRecentPostsBlock__news footerRecentPostsBlockNews">
+          <p class="footerRecentPostsBlockNews__date">September 08.2015</p>
+          <p class="footerRecentPostsBlockNews__content">Claritas est etiam processus dynamic&shy;us, qui sequitur
+            mutationem per seac&shy;ula quarta decima</p>
+        </article>
+      </article>
+
+      <article class="footer__block footerOutTwitterBlock">
+        <h3 class="footerOutTwitterBlock__title">Our Twitter</h3>
+        <article class="footerOutTwitterBlock__news footerOutTwitterBlockNews">
+          <p class="footerOutTwitterBlockNews__content"><span class="footerOutTwitterBlockNews__markЕurquoise">@waxom</span>
+            Cum
+            soluta nobis eleifend option congue nihil imperdiet
+            doming</p>
+          <p class="footerOutTwitterBlockNews__time">3 mins ago</p>
+          <div class="footerOutTwitterBlockNews__line"></div>
+        </article>
+        <article class="footerOutTwitterBlock__news footerOutTwitterBlockNews">
+          <p class="footerOutTwitterBlockNews__content">Mirum est <span class="footerOutTwitterBlockNews__markЕurquoise">#envato</span>
+            notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+          <p class="footerOutTwitterBlockNews__time">5 hours ago</p>
+          <div class="footerOutTwitterBlockNews__line"></div>
+        </article>
+        <article class="footerOutTwitterBlock__news footerOutTwitterBlockNews">
+          <p class="footerOutTwitterBlockNews__content">Soluta nobis option <span class="footerOutTwitterBlockNews__markWhite">bit.ly/1Hniso7</span></p>
+          <p class="footerOutTwitterBlockNews__time">20 days ago</p>
+        </article>
+      </article>
+
+      <article class="footer__block footerWidgetBlock">
+        <h3 class="footerWidgetBlock__title">Dribbble Widget</h3>
+        <div class="footerWidgetBlock__imgWrapper">
+          <img src="images\Footer\DribbleWidget_1.png" alt="widget" class="footerWidgetBlock__img">
+          <img src="images\Footer\DribbleWidget_2.png" alt="widget" class="footerWidgetBlock__img">
+        </div>
+        <div class="footerWidgetBlock__imgWrapper">
+          <img src="images\Footer\DribbleWidget_3.png" alt="widget" class="footerWidgetBlock__img">
+          <img src="images\Footer\DribbleWidget_4.png" alt="widget" class="footerWidgetBlock__img">
+        </div>
+      </article>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyrightWrapper">
+      <section class="copyright">
+        <div class="copyright__leftContent copyrightLeftContent">
+          <p class="copyrightLeftContent__text">Copyright &copy; 2015
+            <span class="copyrightLeftContent__markGrey">Waxom</span>
+          </p>
+          <a href="#" class="copyrightLeftContent__link">Privacy Policy</a>
+          <a href="#" class="copyrightLeftContent__link">
+            <span class="copyrightLeftContent__markBeige">FAQ</span>
+          </a>
+          <a href="#" class="copyrightLeftContent__link">Support</a>
+        </div>
+
+        <div class="copyright__rightContent copyrightRightContent">
+          <p class="copyrightRightContent__text">Designed by
+            <span class="copyrightRightContent__markGrey">ThemeFire</span>
+          </p>
+          <p class="copyrightRightContent__text">Only on
+            <span class="copyrightRightContent__markGrey">Envato Market</span>
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>

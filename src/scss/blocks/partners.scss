@@ -1,0 +1,15 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 490px;
+  width: 100%;
+  background-image: url(../images/Content/Partners/Partners-bg.png);
+  background-size: cover;
+  background-position: center;
+  &__iconWrapper {
+    @include flexColCent();
+    min-width: 270px;
+    margin: 0 15px;
+  }
+}

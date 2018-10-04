@@ -1,0 +1,156 @@
+@media (max-width: 1050px) {
+  .header {
+    &__top, {
+      justify-content: space-around;
+      width: 100%;
+    }
+    &__bottom {
+      width: 100%;
+    }
+  }  
+  .about__content, 
+  .other__content, 
+  .reviews__content, {
+    max-width: 520px;
+  }  
+}
+@media (max-width: 1019px) {
+  .footer__first-column {
+    order: 1;
+    margin-top: 30px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 864px) {
+  .header {
+    &__login-button {
+      margin-right: 20px;
+    }
+    &__logo {
+      margin: 0 40px;
+    }
+    &__top {
+      margin-bottom: 20px;
+    }
+  }  
+  .nav {
+    order:1;
+  }
+}
+@media (max-width: 670px) {
+  .header {
+    &__bottom-img {
+      width: 70px;
+      height: 70px;
+    }
+    &__bottom-left {
+      position: absolute;
+      left: 80px;
+      padding: 0;
+      margin-right: 0;
+      width: 70px;
+    }  
+    &__bottom-title1 {
+      line-height: 35px;
+      margin-left: 90px;
+      font-size: 22pt;
+    }
+    &__bottom-title2 {
+      line-height: 30px;
+      margin-left: 90px;
+      font-size: 16pt;
+    }
+    &__bottom-text {
+      font-size: 10pt;
+    }
+    &__bottom-right {
+      width: 100%;
+      padding-left: 80px;
+    } 
+  }   
+}
+@media (max-width: 548px) {  
+  .header {
+    &__logo {
+      margin: 0 40px 20px;
+    }
+    &__pips {
+      margin:0 0 20px;
+    }
+  }
+  .nav {
+    order:0;
+    &__list {
+      display: block;
+    }
+  }
+  .about__content, 
+  .other__content {
+    max-width: 260px;
+  }
+  .reviews {
+    padding: 0 30px;
+    width: 100%;
+    &__item {
+      flex-direction: column;
+      padding-right: 0;
+    }
+    &__content {
+      width: 100%;
+    }
+    &__avatar {
+      max-width: 130px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    &__item-title {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 494px) {
+  .header {
+    &__arrow-left {
+      left: 0;
+    }
+    &__arrow-right {
+      right: 0;
+    }  
+    &__bottom-left {
+      left: 50px;
+    }
+    &__bottom-right {
+      padding: 0 50px;
+    }
+    &__bottom-button {
+      align-self: center;
+    }
+    &__bottom-title2 {
+      margin: 0 0 20px 0;
+    }
+  }  
+  .nav__list {
+    margin-right: 0;
+  }
+  .footer {
+    &__logo {
+      align-self: center;
+    }
+    &__courses-title {
+      text-align: center;
+    }
+    &__ul {
+      position: relative;
+      left: 50%;
+      transform: translateX(-40%);
+    }
+    &__third-column {
+      position: relative;
+      top: auto;
+      left: auto;
+    }
+  }  
+}
